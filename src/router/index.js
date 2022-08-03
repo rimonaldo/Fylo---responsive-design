@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import mainPage from '../views/main-page.vue'
+import pageHero from '../cmps/page-hero.vue'
 
 
 const router = createRouter({
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'mainPage',
-      component: mainPage,
+      component: pageHero,
     },
   ]
 })
